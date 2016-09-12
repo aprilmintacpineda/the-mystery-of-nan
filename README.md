@@ -1,7 +1,7 @@
 # NaN and isNaN in JavaScript
-## Foods for thought
+###### Foods for thought
 
-###### What is NaN?
+## What is NaN?
 
 **NaN** stands for Not-a-Number, it represents what the name explicitly say, a value that is not a valid number, we can use a built-in function called `isNaN()` to check if a value is NaN.
 
@@ -109,5 +109,9 @@ isNaN(NaN); // will return true
 ```
 
 `a !== a` checks if the value and data type of `a` is not equal to itself, this would be true if we are checking a NaN value and therefore the function will return true. `Number(a) !== Number(a)` first converts the value of a into a number (returning a NaN if it fails) then checks if they are of the same value and data type. Now `condition || condition` would return true if one of these conditions were met and false if both fails and the only way it will fail is if the value is NaN.
+
+## Why is NaN not equal to itself?
+
+I don't know what logic they used. So I don't know why NaN is not equal to itself when everything else is equal to themselves.
 
 **Goal achieved.**
