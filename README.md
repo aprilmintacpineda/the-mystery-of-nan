@@ -112,6 +112,6 @@ isNaN(NaN); // will return true
 
 ## Why is NaN not equal to itself?
 
-I don't know what logic they used. So I don't know why NaN is not equal to itself when everything else is equal to themselves.
+I don't know what logic they used. So I don't know why NaN is not equal to itself when everything else are equal to themselves.
 
 **Goal achieved.**
